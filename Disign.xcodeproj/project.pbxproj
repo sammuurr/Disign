@@ -16,6 +16,7 @@
 		2FA15B7E26F48E2400EDEBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15B7C26F48E2400EDEBDF /* LaunchScreen.storyboard */; };
 		2FA15B8C26F4B31A00EDEBDF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15B8B26F4B31A00EDEBDF /* FeedViewController.swift */; };
 		8E583EF726F75FF000378579 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E583EF626F75FF000378579 /* ExpensesViewController.swift */; };
+		8E583EF926F7725E00378579 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E583EF826F7725E00378579 /* ProfilViewController.swift */; };
 		8E5D09A426F71EB500A4CB15 /* MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */; };
 		8E5D09A626F71EEE00A4CB15 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */; };
 		8E6BDCC826F67BE300E75183 /* ContenFillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6BDCC726F67BE200E75183 /* ContenFillCollectionViewCell.swift */; };
@@ -35,6 +36,7 @@
 		2FA15B7F26F48E2400EDEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA15B8B26F4B31A00EDEBDF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		8E583EF626F75FF000378579 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		8E583EF826F7725E00378579 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
 		8E6BDCC726F67BE200E75183 /* ContenFillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenFillCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				8EF949EA26F5BB7E0099587E /* ContentViewController.swift */,
 				8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */,
 				8E583EF626F75FF000378579 /* ExpensesViewController.swift */,
+				8E583EF826F7725E00378579 /* ProfilViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E583EF926F7725E00378579 /* ProfilViewController.swift in Sources */,
 				2FA15B7326F48E2300EDEBDF /* ViewController.swift in Sources */,
 				8E5D09A426F71EB500A4CB15 /* MarketCollectionViewCell.swift in Sources */,
 				8E5D09A626F71EEE00A4CB15 /* MarketViewController.swift in Sources */,
