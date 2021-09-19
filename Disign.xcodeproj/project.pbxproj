@@ -15,6 +15,9 @@
 		2FA15B7B26F48E2400EDEBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15B7A26F48E2400EDEBDF /* Assets.xcassets */; };
 		2FA15B7E26F48E2400EDEBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15B7C26F48E2400EDEBDF /* LaunchScreen.storyboard */; };
 		2FA15B8C26F4B31A00EDEBDF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15B8B26F4B31A00EDEBDF /* FeedViewController.swift */; };
+		8E4D47B026F7C2F9001FB087 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D47AF26F7C2F9001FB087 /* Message.swift */; };
+		8E4D47B326F7D04F001FB087 /* UserOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D47B226F7D04F001FB087 /* UserOptionsViewController.swift */; };
+		8E4D47B626F7D255001FB087 /* UserOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4D47B526F7D255001FB087 /* UserOptionsTableViewCell.swift */; };
 		8E583EF726F75FF000378579 /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E583EF626F75FF000378579 /* ExpensesViewController.swift */; };
 		8E583EF926F7725E00378579 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E583EF826F7725E00378579 /* ProfilViewController.swift */; };
 		8E5D09A426F71EB500A4CB15 /* MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */; };
@@ -37,6 +40,9 @@
 		2FA15B7D26F48E2400EDEBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA15B7F26F48E2400EDEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FA15B8B26F4B31A00EDEBDF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		8E4D47AF26F7C2F9001FB087 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8E4D47B226F7D04F001FB087 /* UserOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOptionsViewController.swift; sourceTree = "<group>"; };
+		8E4D47B526F7D255001FB087 /* UserOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOptionsTableViewCell.swift; sourceTree = "<group>"; };
 		8E583EF626F75FF000378579 /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
 		8E583EF826F7725E00378579 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -90,9 +96,18 @@
 			path = Disign;
 			sourceTree = "<group>";
 		};
+		8E4D47B426F7D221001FB087 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D47B526F7D255001FB087 /* UserOptionsTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		8EF949E726F5AD470099587E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8E4D47AF26F7C2F9001FB087 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,6 +122,7 @@
 				8E583EF626F75FF000378579 /* ExpensesViewController.swift */,
 				8E583EF826F7725E00378579 /* ProfilViewController.swift */,
 				8E6AB82026F7A20600DF8CA2 /* MessageViewController.swift */,
+				8E4D47B226F7D04F001FB087 /* UserOptionsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -124,6 +140,7 @@
 		8EF949EC26F5DD930099587E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				8E4D47B426F7D221001FB087 /* TableViewCells */,
 				8EF949ED26F5DDA00099587E /* CollectionViewCells */,
 			);
 			path = Cells;
@@ -214,14 +231,17 @@
 				8E583EF926F7725E00378579 /* ProfilViewController.swift in Sources */,
 				8E6AB82126F7A20600DF8CA2 /* MessageViewController.swift in Sources */,
 				2FA15B7326F48E2300EDEBDF /* ViewController.swift in Sources */,
+				8E4D47B326F7D04F001FB087 /* UserOptionsViewController.swift in Sources */,
 				8E5D09A426F71EB500A4CB15 /* MarketCollectionViewCell.swift in Sources */,
 				8E5D09A626F71EEE00A4CB15 /* MarketViewController.swift in Sources */,
 				8E583EF726F75FF000378579 /* ExpensesViewController.swift in Sources */,
 				2FA15B7926F48E2300EDEBDF /* Disign.xcdatamodeld in Sources */,
 				8E6BDCC826F67BE300E75183 /* ContenFillCollectionViewCell.swift in Sources */,
 				8EF949F026F5DE370099587E /* ContentCollectionViewCell.swift in Sources */,
+				8E4D47B626F7D255001FB087 /* UserOptionsTableViewCell.swift in Sources */,
 				2FA15B8C26F4B31A00EDEBDF /* FeedViewController.swift in Sources */,
 				2FA15B6F26F48E2300EDEBDF /* AppDelegate.swift in Sources */,
+				8E4D47B026F7C2F9001FB087 /* Message.swift in Sources */,
 				8EF949EB26F5BB7E0099587E /* ContentViewController.swift in Sources */,
 				2FA15B7126F48E2300EDEBDF /* SceneDelegate.swift in Sources */,
 			);
