@@ -19,6 +19,8 @@
 		8E583EF926F7725E00378579 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E583EF826F7725E00378579 /* ProfilViewController.swift */; };
 		8E5D09A426F71EB500A4CB15 /* MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */; };
 		8E5D09A626F71EEE00A4CB15 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */; };
+		8E6AB82126F7A20600DF8CA2 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6AB82026F7A20600DF8CA2 /* MessageViewController.swift */; };
+		8E6AB82326F7A72C00DF8CA2 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6AB82226F7A72C00DF8CA2 /* MessageCollectionViewCell.swift */; };
 		8E6BDCC826F67BE300E75183 /* ContenFillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6BDCC726F67BE200E75183 /* ContenFillCollectionViewCell.swift */; };
 		8EF949EB26F5BB7E0099587E /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF949EA26F5BB7E0099587E /* ContentViewController.swift */; };
 		8EF949F026F5DE370099587E /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF949EF26F5DE370099587E /* ContentCollectionViewCell.swift */; };
@@ -39,6 +41,8 @@
 		8E583EF826F7725E00378579 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		8E6AB82026F7A20600DF8CA2 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		8E6AB82226F7A72C00DF8CA2 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		8E6BDCC726F67BE200E75183 /* ContenFillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenFillCollectionViewCell.swift; sourceTree = "<group>"; };
 		8EF949EA26F5BB7E0099587E /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		8EF949EF26F5DE370099587E /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 				8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */,
 				8E583EF626F75FF000378579 /* ExpensesViewController.swift */,
 				8E583EF826F7725E00378579 /* ProfilViewController.swift */,
+				8E6AB82026F7A20600DF8CA2 /* MessageViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				8EF949EF26F5DE370099587E /* ContentCollectionViewCell.swift */,
 				8E6BDCC726F67BE200E75183 /* ContenFillCollectionViewCell.swift */,
 				8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */,
+				8E6AB82226F7A72C00DF8CA2 /* MessageCollectionViewCell.swift */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -204,7 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6AB82326F7A72C00DF8CA2 /* MessageCollectionViewCell.swift in Sources */,
 				8E583EF926F7725E00378579 /* ProfilViewController.swift in Sources */,
+				8E6AB82126F7A20600DF8CA2 /* MessageViewController.swift in Sources */,
 				2FA15B7326F48E2300EDEBDF /* ViewController.swift in Sources */,
 				8E5D09A426F71EB500A4CB15 /* MarketCollectionViewCell.swift in Sources */,
 				8E5D09A626F71EEE00A4CB15 /* MarketViewController.swift in Sources */,
