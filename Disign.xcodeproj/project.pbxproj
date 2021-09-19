@@ -14,8 +14,12 @@
 		2FA15B7926F48E2300EDEBDF /* Disign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15B7726F48E2300EDEBDF /* Disign.xcdatamodeld */; };
 		2FA15B7B26F48E2400EDEBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15B7A26F48E2400EDEBDF /* Assets.xcassets */; };
 		2FA15B7E26F48E2400EDEBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15B7C26F48E2400EDEBDF /* LaunchScreen.storyboard */; };
-		2FA15B8A26F492AF00EDEBDF /* static in Resources */ = {isa = PBXBuildFile; fileRef = 2FA15B8926F492AF00EDEBDF /* static */; };
 		2FA15B8C26F4B31A00EDEBDF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA15B8B26F4B31A00EDEBDF /* FeedViewController.swift */; };
+		8E5D09A426F71EB500A4CB15 /* MarketCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */; };
+		8E5D09A626F71EEE00A4CB15 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */; };
+		8E6BDCC826F67BE300E75183 /* ContenFillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6BDCC726F67BE200E75183 /* ContenFillCollectionViewCell.swift */; };
+		8EF949EB26F5BB7E0099587E /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF949EA26F5BB7E0099587E /* ContentViewController.swift */; };
+		8EF949F026F5DE370099587E /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF949EF26F5DE370099587E /* ContentCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +32,12 @@
 		2FA15B7A26F48E2400EDEBDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FA15B7D26F48E2400EDEBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FA15B7F26F48E2400EDEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FA15B8926F492AF00EDEBDF /* static */ = {isa = PBXFileReference; lastKnownFileType = folder; name = static; path = ../../static; sourceTree = "<group>"; };
 		2FA15B8B26F4B31A00EDEBDF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCollectionViewCell.swift; sourceTree = "<group>"; };
+		8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		8E6BDCC726F67BE200E75183 /* ContenFillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenFillCollectionViewCell.swift; sourceTree = "<group>"; };
+		8EF949EA26F5BB7E0099587E /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		8EF949EF26F5DE370099587E /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +70,62 @@
 		2FA15B6D26F48E2300EDEBDF /* Disign */ = {
 			isa = PBXGroup;
 			children = (
-				2FA15B8926F492AF00EDEBDF /* static */,
+				8EF949E926F5AD6A0099587E /* Views */,
+				8EF949E826F5AD520099587E /* Controllers */,
+				8EF949E726F5AD470099587E /* Models */,
 				2FA15B6E26F48E2300EDEBDF /* AppDelegate.swift */,
 				2FA15B7026F48E2300EDEBDF /* SceneDelegate.swift */,
-				2FA15B7226F48E2300EDEBDF /* ViewController.swift */,
-				2FA15B7426F48E2300EDEBDF /* Main.storyboard */,
 				2FA15B7A26F48E2400EDEBDF /* Assets.xcassets */,
-				2FA15B7C26F48E2400EDEBDF /* LaunchScreen.storyboard */,
 				2FA15B7F26F48E2400EDEBDF /* Info.plist */,
 				2FA15B7726F48E2300EDEBDF /* Disign.xcdatamodeld */,
-				2FA15B8B26F4B31A00EDEBDF /* FeedViewController.swift */,
 			);
 			path = Disign;
+			sourceTree = "<group>";
+		};
+		8EF949E726F5AD470099587E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EF949E826F5AD520099587E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FA15B7226F48E2300EDEBDF /* ViewController.swift */,
+				2FA15B8B26F4B31A00EDEBDF /* FeedViewController.swift */,
+				8EF949EA26F5BB7E0099587E /* ContentViewController.swift */,
+				8E5D09A526F71EEE00A4CB15 /* MarketViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8EF949E926F5AD6A0099587E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EF949EC26F5DD930099587E /* Cells */,
+				2FA15B7426F48E2300EDEBDF /* Main.storyboard */,
+				2FA15B7C26F48E2400EDEBDF /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EF949EC26F5DD930099587E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8EF949ED26F5DDA00099587E /* CollectionViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8EF949ED26F5DDA00099587E /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8EF949EF26F5DE370099587E /* ContentCollectionViewCell.swift */,
+				8E6BDCC726F67BE200E75183 /* ContenFillCollectionViewCell.swift */,
+				8E5D09A326F71EB500A4CB15 /* MarketCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +187,6 @@
 			files = (
 				2FA15B7E26F48E2400EDEBDF /* LaunchScreen.storyboard in Resources */,
 				2FA15B7B26F48E2400EDEBDF /* Assets.xcassets in Resources */,
-				2FA15B8A26F492AF00EDEBDF /* static in Resources */,
 				2FA15B7626F48E2300EDEBDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,9 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FA15B7326F48E2300EDEBDF /* ViewController.swift in Sources */,
+				8E5D09A426F71EB500A4CB15 /* MarketCollectionViewCell.swift in Sources */,
+				8E5D09A626F71EEE00A4CB15 /* MarketViewController.swift in Sources */,
 				2FA15B7926F48E2300EDEBDF /* Disign.xcdatamodeld in Sources */,
+				8E6BDCC826F67BE300E75183 /* ContenFillCollectionViewCell.swift in Sources */,
+				8EF949F026F5DE370099587E /* ContentCollectionViewCell.swift in Sources */,
 				2FA15B8C26F4B31A00EDEBDF /* FeedViewController.swift in Sources */,
 				2FA15B6F26F48E2300EDEBDF /* AppDelegate.swift in Sources */,
+				8EF949EB26F5BB7E0099587E /* ContentViewController.swift in Sources */,
 				2FA15B7126F48E2300EDEBDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,12 +355,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q7KY4ZR42;
 				INFOPLIST_FILE = Disign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = student.Disign;
+				PRODUCT_BUNDLE_IDENTIFIER = students.Disign;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q7KY4ZR42;
 				INFOPLIST_FILE = Disign/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
